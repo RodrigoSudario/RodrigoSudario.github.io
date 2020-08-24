@@ -1,0 +1,34 @@
+
+h1 {
+     color: rgb(255, 203, 105);
+    text-align: center;
+ }       
+h2 {
+    color: rgb(241, 220, 167)
+}
+body {
+    background-color: rgb(84, 106, 123)
+}
+
+p {
+    line-height: 1,5em;
+    font-weight: 400;
+    font-family: sans-serif; 
+}
+
+.tamanho-da-habilidade {
+    font-size: 20px;
+
+}
+a {
+    padding: 8px;
+    border-radius: 25px;
+    background-color: rgb(255, 203, 105);
+    text-decoration: none;
+}
+.TextoSobre {
+    float: right;
+    width: 75%;
+}
+
+
