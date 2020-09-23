@@ -1,0 +1,47 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    box-sizing: border-box;  
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh
+}
+header {
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img{
+    width: 200px;
+    border-radius: 50%;
+}
+header a{
+    color: aqua;
+    margin-left: 10px;
+}
+section h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+section{
+    border: solid 1px black;
+    border-radius: 5px;
+}
+
+.paragrafo{
+    display: flex;
+    justify-content: center;
+    margin: 35px 15px;
+}
+.boxSkills{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 35px 15px;
+}
