@@ -34,6 +34,8 @@ section h2{
     margin-top: 25px;
 }
 section{
+    width: 80%;
+    margin: auto;
 
 }
 .segSection{
@@ -62,9 +64,10 @@ section{
     flex-wrap: wrap;
 }
 .repositorio nav p{
-    border: solid 1px black;
+    border: solid 1px rgb(52, 58, 64);
     border-radius: 7px;
     padding: 25px;
+    margin-bottom: 20px;
 }
 i{
     color: rgb(73, 80, 87);
@@ -80,4 +83,23 @@ footer{
 footer ul{
     display: flex;
     justify-content: center;
+}
+.hardSkills ul{
+    display: flex;
+    justify-content: space-around;
+}
+#topLink{
+    text-align: center;
+}
+.colorNameProject{
+    color: rgb(73, 80, 87);
+}
+button{
+    width: 250px;
+    margin: 5px
+}
+#textProject{
+    width: 50%;
+    border: rgb(52, 58, 64) solid 1px;
+    border-radius: 7px;
 }
