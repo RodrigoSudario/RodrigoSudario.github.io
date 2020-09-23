@@ -1,0 +1,105 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    box-sizing: border-box;  
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh
+}
+header {
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(206, 212, 218);
+    border: solid 1px rgb(52, 58, 64);
+    border-radius: 7px;
+}
+header img{
+    width: 200px;
+    border-radius: 50%;
+}
+a{
+    color: rgb(73, 80, 87);
+    margin-left: 10px;
+}
+section h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+section{
+    width: 80%;
+    margin: auto;
+
+}
+.segSection{
+    background-color: rgb(206, 212, 218);
+    border: solid 1px rgb(52, 58, 64);
+    border-radius: 7px;
+}
+
+.paragrafo{
+    display: flex;
+    justify-content: center;
+    margin: 35px 1px;
+}
+.boxSkills{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 35px 15px;
+}
+.repositorio{
+    display: flex;
+    justify-content: space-around;
+}
+.repositorio nav{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.repositorio nav p{
+    border: solid 1px rgb(52, 58, 64);
+    border-radius: 7px;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+i{
+    color: rgb(73, 80, 87);
+    margin: 30px;
+    font-size: 3em;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+}
+.hardSkills ul{
+    display: flex;
+    justify-content: space-around;
+}
+#topLink{
+    text-align: center;
+}
+.colorNameProject{
+    color: rgb(73, 80, 87);
+}
+button{
+    width: 250px;
+    margin: 5px
+}
+#textProject{
+    width: 50%;
+    border: rgb(52, 58, 64) solid 1px;
+    border-radius: 7px;
+}
